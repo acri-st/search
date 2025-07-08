@@ -1,0 +1,22 @@
+[project]
+name = "search-service"
+version = "1.0.0"
+description = "Microservice handling searches (interface with elastic, metadata, subscription)"
+authors = []
+requires-python = ">=3.12"
+
+
+dependencies = [
+    "msfwk>=1.0.19",
+    "elasticsearch>=8.17.2",
+    "pytest>=8.3.2",
+    "pytest-asyncio>=0.24.0",
+    "aiosqlite>=0.21.0",
+    "ruff>=0.6.3",
+    "despsharedlibrary>=1.0.5",
+    "pytest-env>=1.1.4",
+]
+
+[tool.uv.sources]
+msfwk = { path = "libs/base-service" , editable = true}
+despsharedlibrary = { path = "libs/desp_shared_library", editable = true }

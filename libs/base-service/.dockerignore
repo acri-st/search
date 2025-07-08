@@ -1,0 +1,7 @@
+tests
+Dockerfile
+README.md
+build
+.pytest_cache
+*.egg-info
+.git*

@@ -1,0 +1,16 @@
+[project]
+name = "despsharedlibrary"
+version = "1.0.10"
+description = "A shared object between all the microservices"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy>=2.0.30",
+    "msfwk>=1.0.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["despsharedlibrary*", "pyarmor_runtime_*"]
+
+[tool.uv.sources]
+msfwk = { path = "../base-service" }
