@@ -79,7 +79,7 @@ Once the merge request has been accepted and merged into development, your chang
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📄
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details. 📄
 
 ## Support
 
