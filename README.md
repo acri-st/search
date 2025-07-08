@@ -7,11 +7,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Development](#development)
-- [Testing](#testing)
 - [Contributing](#contributing)
-- [Deployment](#deployment)
-- [License](#license)
-- [Support](#support)
 
 ## Introduction
 
